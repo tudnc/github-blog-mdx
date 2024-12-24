@@ -1,0 +1,256 @@
+[
+  {
+    "url": "https://github-blog.embroii.com/blog/chi-la-test",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/chi-la-test",
+    "depth": 2,
+    "title": "Chi La Test",
+    "description": "Chi La Test -- Updated",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Chi+La+Test",
+    "headers": [
+      " Chi La Test",
+      " Hello World"
+    ],
+    "content": "Hello I am a callout\n\nHello World\n\nWelcome to my blog `inline code`\n\nHeader 3",
+    "objectID": "https://github-blog.embroii.com/blog/chi-la-test"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/test-mdx-on-github",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/test-mdx-on-github",
+    "depth": 2,
+    "title": "Test MDX on Github",
+    "description": "Test MDX on Github",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Test+MDX+on+Github",
+    "headers": [
+      " Test MDX on Github",
+      " Hello World"
+    ],
+    "content": " Test MDX on Github Hello I am a callout Welcome to my blog  inline code",
+    "objectID": "https://github-blog.embroii.com/blog/test-mdx-on-github"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/summon-component",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/summon-component",
+    "depth": 2,
+    "title": "How to Summon a React Component: A Beginner's Guide",
+    "description": "Dive into the mystical world of React and learn the incantations needed to summon your very first React component with humor and ease.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=How+to+Summon+a+React+Component%3A+A+Beginner%27s+Guide",
+    "headers": [
+      " How to Summon a React Component: A Beginner's Guide",
+      " How to Summon a React Component",
+      " Ingredients",
+      " Instructions"
+    ],
+    "content": " Dive into the mystical world of React and learn the incantations needed to summon your very first React component with humor and ease. Ever wondered how to summon a React component from the netherworld? Fear not, for I shall guide you through this arcane ritual, combining ancient JavaScript lore with the modern magic of JSX. This guide is perfect for apprentices who wish to embark on the mystical journey of React development. First, prepare your development cauldron (also known as your code editor). Make sure it's clean and ready for brewing a new React component. Now, follow these steps carefully: Mix the JavaScript knowledge thoroughly until it's smooth and free of lumps. This forms the base of your component. Fold in a pinch of JSX carefully. This is what brings your component to life, allowing it to render in the browser realm. Stir in the patience slowly. Sometimes, the component might not render correctly on the first try. Patience is key here. Add a sprinkle of creativity. This is what makes your component truly unique. Whether it's a stylish button or a dynamic form, let your imagination run wild. Finally, chant the incantation below: With the incantation complete, your React component should now be summoned successfully. It will serve you faithfully, reacting to user inputs and rendering data dynamically. Congratulations, you've now summoned your first React component. Handle with care, or it might turn against you by throwing errors and warnings. Remember, with great power comes great responsibility. Happy coding!",
+    "objectID": "https://github-blog.embroii.com/blog/summon-component"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/react-state-management",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/react-state-management",
+    "depth": 2,
+    "title": "React State Management: An Epic Tale of Love, Loss, and Redux",
+    "description": "Embark on a dramatic journey through the realm of React state management. Witness the love triangles, betrayals, and heartaches that components face as they navigate the complex world of state management, with a special appearance by Redux.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=React+State+Management%3A+An+Epic+Tale+of+Love%2C+Loss%2C+and+Redux",
+    "headers": [
+      " React State Management: An Epic Tale of Love, Loss, and Redux",
+      " React State Management: A Soap Opera",
+      " The Love Affair Between Components and State",
+      " The Jealous Sibling: Prop Drilling",
+      " The Arrival of Redux: A New Hope",
+      " The Dramatic Finale: State Reconciliation",
+      " Epilogue: The Moral of the Story"
+    ],
+    "content": " Embark on a dramatic journey through the realm of React state management. Witness the love triangles, betrayals, and heartaches that components face as they navigate the complex world of state management, with a special appearance by Redux. In the grand drama of React development, the saga of state management is one filled with love, jealousy, and occasional heartbreak. This tale unfolds in the realm of an application, where components and states are intertwined in a complex dance of functionality and performance. Our story begins with a young component, fresh and eager, falling deeply in love with a beautiful piece of state. This state, so pristine and full of potential, promises to bring the best out of our component, making it dynamic and interactive. But as in any good soap opera, there's a twist. A sibling component, envious of the love affair, desires the state for itself. This leads to the dark practice of prop drilling, passing the beloved state down through layers of components, causing confusion and chaos. Just when all seems lost, a new character enters the scene: Redux. With its powers of global state management, Redux promises to end the jealousy and confusion, allowing state to be shared harmoniously among all components. In the dramatic climax, the components learn to embrace Redux, sharing state seamlessly and ending the cycle of jealousy and prop drilling. Love and state are now distributed equally, bringing peace to the application realm. As our tale concludes, we're reminded of the importance of proper state management in React applications. Whether through hooks, context, or Redux, managing state with care and precision ensures a harmonious relationship between components and their state. Remember, dear developers, in the world of React, love (and state) conquers all. Happy coding!",
+    "objectID": "https://github-blog.embroii.com/blog/react-state-management"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/react-lifecycle-cats",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/react-lifecycle-cats",
+    "depth": 2,
+    "title": "The Lifecycle of a React Component, As Told by Cats",
+    "description": "A whimsical exploration of the React component lifecycle, with each stage humorously explained through the behavior of cats. Perfect for developers looking to understand lifecycle methods in a more relatable and entertaining way.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=The+Lifecycle+of+a+React+Component%2C+As+Told+by+Cats",
+    "headers": [
+      " The Lifecycle of a React Component, As Told by Cats",
+      " The Lifecycle of a React Component, Explained by Cats",
+      " Mounting: The Curious Kitten",
+      " Updating: The Playful Cat",
+      " Unmounting: The Lazy Cat",
+      " Conclusion: Nine Lives of React Components"
+    ],
+    "content": " A whimsical exploration of the React component lifecycle, with each stage humorously explained through the behavior of cats. Perfect for developers looking to understand lifecycle methods in a more relatable and entertaining way. Every React component undergoes a series of events from birth to death, known as its lifecycle. Just as cats have their unique behaviors, each phase of a component's lifecycle can be likened to the life stages of our feline friends. The mounting phase is when our component is born into the DOM world. Imagine a kitten opening its eyes for the first time, exploring its surroundings with awe. This is your component, freshly rendered and ready to interact with the user. As props and state change, our component updates. This is akin to a cat in its playful phase, chasing after laser pointers or pouncing on yarn. Every update re-renders the component, making it respond to user interactions and data changes dynamically. Finally, when the component is no longer needed and is removed from the DOM, it's like a cat losing interest in its toy and sauntering off for a nap. This phase cleans up any lingering effects or subscriptions the component may have. Just as cats live their lives in phases, React components have their lifecycle. Understanding these phases helps you better manage your components, ensuring they perform efficiently and gracefully throughout their lifecycle. Remember, the key to mastering React is much like understanding cats: it requires patience, observation, and a bit of love for the craft. Happy coding, and may your components live as richly and interestingly as our feline overlords!",
+    "objectID": "https://github-blog.embroii.com/blog/react-lifecycle-cats"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/react-hooks",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/react-hooks",
+    "depth": 2,
+    "title": "React Hooks: Fishing for Components in the React Sea",
+    "description": "Explore the amusing analogy of React Hooks as fishing tools designed to catch components in the vast sea of React development. Learn how to use useState, useEffect, and useContext to manage your catch effectively.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=React+Hooks%3A+Fishing+for+Components+in+the+React+Sea",
+    "headers": [
+      " React Hooks: Fishing for Components in the React Sea",
+      " React Hooks: Fishing for Components",
+      " The Essential Fishing Gear",
+      " Setting Sail: Your First Catch",
+      " The Catch of the Day"
+    ],
+    "content": " Explore the amusing analogy of React Hooks as fishing tools designed to catch components in the vast sea of React development. Learn how to use useState, useEffect, and useContext to manage your catch effectively. In the vast sea of React, where components swim freely and side-effects lurk in the depths, a developer must become a skilled fisherman to catch their desired functionality. This guide will equip you with the React Hooks you need to catch components with precision and grace. Before we set sail, let's ensure we have all the necessary gear: With our gear ready, it's time to set sail into the React sea. Here's how to make your first catch: Congratulations! You've made your first catch in the React sea. But remember, the sea is vast, and there are many more components and hooks to explore. Each project is a new fishing trip, with its challenges and rewards. Remember to release any components back into the sea if you don't need them. Keeping your application's waters clean and sustainable is key to a healthy React ecosystem. Happy fishing in the React sea!",
+    "objectID": "https://github-blog.embroii.com/blog/react-hooks"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/react-debug-magic",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/react-debug-magic",
+    "depth": 2,
+    "title": "Debugging React with Wizardry and Magic: A Developer's Spellbook",
+    "description": "Enter the mystical world of debugging React applications with a touch of humor. Learn spells and incantations to banish bugs and optimize your code, all while navigating the enchanting forest of React development.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Debugging+React+with+Wizardry+and+Magic%3A+A+Developer%27s+Spellbook",
+    "headers": [
+      " Debugging React with Wizardry and Magic: A Developer's Spellbook",
+      " Debugging React with Wizardry and Magic",
+      " The Spell for Revealing Hidden Bugs",
+      " The Incantation for Smoothing State Changes",
+      " The Potion for Enhancing Performance",
+      " Conclusion: The Magic of React Development"
+    ],
+    "content": " Enter the mystical world of debugging React applications with a touch of humor. Learn spells and incantations to banish bugs and optimize your code, all while navigating the enchanting forest of React development. In the mystical land of React, where components render and state changes abound, even the most skilled developers can encounter nefarious bugs. Fear not, for I have compiled a spellbook to assist you in banishing these foul creatures back to the depths from whence they came. Hidden bugs are like invisible sprites, causing mischief unseen. Use this spell to reveal them: Ingredients: Chant: With this spell, the hidden bug will have no choice but to show itself. Remember, the console is your wand; wield it wisely. State changes can be tricky, leading to unexpected behavior. Smooth them over with this incantation: Ingredients: Chant: This careful blend of prevState and useEffect ensures that your state changes are as smooth as a wizard's potion. To enhance the performance of your React app, brew this powerful potion: Ingredients: Brew: Mix these ingredients in your component's cauldron. Use  useMemo and  useCallback to prevent unnecessary re-renders, and  PureComponent to ensure your components only update when truly needed. With this potion, your app will fly faster than a witch on a broomstick during a full moon. Debugging React apps requires a mix of logic, intuition, and a bit of magic. By applying these spells and potions, you can navigate the enchanted forest of React development with ease. Remember, the true magic lies not just in the spells themselves, but in understanding the principles that make them work. Happy debugging, and may your React journey be magical!",
+    "objectID": "https://github-blog.embroii.com/blog/react-debug-magic"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/prop-drilling",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/prop-drilling",
+    "depth": 2,
+    "title": "Prop Drilling: The Horror Movie - A Tale of React Components",
+    "description": "Step into a spine-chilling narrative where React components face the dread of prop drilling. Discover how using Context API or Redux can save your components from the depths of despair in this humorous take on a common React challenge.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Prop+Drilling%3A+The+Horror+Movie+-+A+Tale+of+React+Components",
+    "headers": [
+      " Prop Drilling: The Horror Movie - A Tale of React Components",
+      " Prop Drilling: The Horror Movie",
+      " The Curse of Prop Drilling",
+      " The Scream in the Console",
+      " The Heroes Emerge: Context API and Redux",
+      " The Final Showdown",
+      " Epilogue: Lessons from the Darkness"
+    ],
+    "content": " Step into a spine-chilling narrative where React components face the dread of prop drilling. Discover how using Context API or Redux can save your components from the depths of despair in this humorous take on a common React challenge. In the shadowy depths of a complex React application, a horror story unfolds. Components, innocent and unsuspecting, find themselves ensnared in a terrifying ordeal known as prop drilling. This tale of suspense and survival will take you through the darkest corridors of React development. Our story begins in a seemingly ordinary app, where a deep nesting of components lives in harmony. But beneath the surface, a curse lurks: the curse of prop drilling. Props, those precious pieces of data, must traverse through an endless labyrinth of components, each more terrifying than the last. As the props descend deeper into the component tree, strange things begin to happen. Console logs echo like screams in the night, warning of missing or undefined props. The components, panicked and confused, pass the props down with trembling hands, hoping not to be the next to encounter an error. Just when all hope seems lost, heroes emerge from the shadows: the Context API and Redux. With their powers of global state management, they offer a beacon of light in the dark, illuminating a path to safety for the beleaguered props. Armed with Context and Redux, the components band together to confront the curse of prop drilling. With a mighty refactor, they implement a new architecture, freeing the props from their endless descent and bringing peace to the application once more. As dawn breaks on our tale, the components emerge wiser and stronger. They've learned that with the right tools and patterns, even the most terrifying challenges in React development can be overcome. Remember, when faced with the horror of prop drilling, do not despair. The Context API and Redux are your allies in the dark, ready to bring light to your React applications.",
+    "objectID": "https://github-blog.embroii.com/blog/prop-drilling"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/hello-world",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/hello-world",
+    "depth": 2,
+    "title": "Hello World",
+    "description": "This is our first blog post",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Hello+World",
+    "headers": [
+      " Hello World",
+      " Hello World"
+    ],
+    "content": " This is our first blog post Hello I am a callout Welcome to my blog  inline code",
+    "objectID": "https://github-blog.embroii.com/blog/hello-world"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/github-markdown",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/github-markdown",
+    "depth": 2,
+    "title": "Github Flavoured Markdown CheatSheet",
+    "description": "A markdown cheat sheet for GFM",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Github+Flavoured+Markdown+CheatSheet",
+    "headers": [
+      " Github Flavoured Markdown CheatSheet",
+      " Introduction",
+      " What is Markdown?",
+      " Syntax guide",
+      " Headers",
+      " This is a h1 tag",
+      " This is a h2 tag",
+      " Emphasis",
+      " Lists",
+      " Images",
+      " Links",
+      " Blockquotes",
+      " Inline code",
+      " Syntax highlighting",
+      " Footnotes",
+      " Task Lists",
+      " Tables",
+      " Strikethrough"
+    ],
+    "content": " A markdown cheat sheet for GFM The following markdown cheatsheet is adapted from: https://guides.github.com/features/mastering-markdown/ Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *. Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files. This text will be italic This text will be bold You  can combine them http://github.com - automatic!\n GitHub As Kanye West said: We're living the future so\nthe present is our past. I think you should use an\n<addr> element here instead. Here’s an example of how you can use syntax highlighting with  GitHub Flavored Markdown: And here's how it looks - nicely colored with styled code titles! Here is a simple footnote[^1]. With some additional text after it.[^1]: My reference. You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:| First Header                | Second Header                |\n| --------------------------- | ---------------------------- |\n| Content from cell 1         | Content from cell 2          |\n| Content in the first column | Content in the second column | Any word wrapped with two tildes (like ~~this~~) will appear ~~crossed out~~.",
+    "objectID": "https://github-blog.embroii.com/blog/github-markdown"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/disappearing-props",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/disappearing-props",
+    "depth": 2,
+    "title": "The Mysterious Case of the Disappearing Props",
+    "description": "Join us on a humorous detective journey to solve the mystery of disappearing props in a React application. Learn troubleshooting tips and best practices to prevent your props from vanishing into thin air.",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=The+Mysterious+Case+of+the+Disappearing+Props",
+    "headers": [
+      " The Mysterious Case of the Disappearing Props",
+      " The Mysterious Case of the Disappearing Props",
+      " Chapter 1: The Disappearance",
+      " Chapter 2: Gathering Clues",
+      " Chapter 3: The Trail of Conditional Rendering",
+      " Chapter 4: The Redux of Red Herring",
+      " Chapter 5: The Resolution",
+      " Epilogue: The Moral of the Story"
+    ],
+    "content": " Join us on a humorous detective journey to solve the mystery of disappearing props in a React application. Learn troubleshooting tips and best practices to prevent your props from vanishing into thin air. In the quiet town of Reactville, developers live in harmony, crafting components and passing props with ease. But one day, a mystery unfolds that sends shockwaves through the community: props begin to disappear without a trace. This tale of intrigue and debugging will guide you through the dark alleys of React development to uncover the truth behind the disappearing props. Our story begins with a developer, much like yourself, who notices something amiss. A component that once displayed data proudly now stands empty, a shadow of its former self. The props, it seems, have vanished. Determined to solve the mystery, our developer dons their detective hat and begins to gather clues. The first stop? The PropTypes alley, where the types of props are declared. Perhaps the culprit left a clue in the form of a type mismatch. The investigation leads to the shadowy path of conditional rendering, a place where props often go unnoticed. Could it be that a misplaced condition has caused the props to disappear? In a surprising twist, our developer suspects Redux, the state manager, might be involved. But upon closer inspection, they realize it was a red herring; the props were simply not connected correctly. With all clues gathered, our developer uncovers the truth: the props were not disappearing; they were merely lost in the complexity of the application. By ensuring proper prop types, conditional rendering, and state management connections, the props were found safe and sound. As peace returns to Reactville, our developer learns an invaluable lesson: in the world of React development, props may seem to disappear, but with careful debugging and attention to detail, they can always be found. Remember, dear developers, when faced with the mysterious disappearance of props, don your detective hat, gather your tools, and embark on a journey of discovery. The truth is out there, waiting to be uncovered.",
+    "objectID": "https://github-blog.embroii.com/blog/disappearing-props"
+  },
+  {
+    "url": "https://github-blog.embroii.com/blog/code-blocks",
+    "hostname": "github-blog.embroii.com",
+    "path": "/blog/code-blocks",
+    "depth": 2,
+    "title": "Lets see what we can do with rehype pretty code",
+    "description": "Syntax highlighting, line numbers, line highlights, word highlights",
+    "type": "article",
+    "image": "https://github-blog.embroii.com/api/og?title=Lets+see+what+we+can+do+with+rehype+pretty+code",
+    "headers": [
+      " Lets see what we can do with rehype pretty code",
+      " Editor-Grade Highlighting",
+      " Line Numbers and Line Highlighting",
+      " Word Highlighting",
+      " ANSI Highlighting"
+    ],
+    "content": " Syntax highlighting, line numbers, line highlights, word highlights rehype-pretty-code is a Rehype plugin powered by the\n shiki syntax highlighter that provides beautiful code blocks for Markdown or MDX. It works on both the server at build-time (avoiding runtime syntax highlighting) and on the client for dynamic highlighting. Enjoy the accuracy and granularity of VS Code's syntax highlighting engine and\nthe popularity of its themes ecosystem — use any VS Code theme you want! Draw attention to a particular line of code. Draw attention to a particular word or series of characters. Inline ANSI: > Local:  http://localhost: 3000/",
+    "objectID": "https://github-blog.embroii.com/blog/code-blocks"
+  },
+  {
+    "url": "https://github-blog.embroii.com/about",
+    "hostname": "github-blog.embroii.com",
+    "path": "/about",
+    "depth": 1,
+    "title": "About Me",
+    "description": "Information about me",
+    "headers": [
+      "About Me",
+      "TuDinh"
+    ],
+    "content": "Software DeveloperLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "objectID": "https://github-blog.embroii.com/about"
+  }
+]
