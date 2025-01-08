@@ -1,0 +1,232 @@
+---
+title: TOP 5 phương pháp gọi API trên nextjs tối ưu nhất
+description: Trong Next.js, có nhiều cách gọi API tùy thuộc vào việc bạn muốn gọi server-side hay client-side. Do Next.js hỗ trợ Server-Side Rendering (SSR), Static Site Generation (SSG), và API Routes, việc chọn cách gọi API tối ưu sẽ dựa trên nhu cầu cụ thể của ứng dụng.
+date: 1736306047
+tags: ["reactjs", "nextjs"]
+published: true
+pin: true
+preview_image: https://raw.githubusercontent.com/tudnc/github-blog-mdx/refs/heads/images/top-5-phuong-phap-goi-api-tren-nextjs-hieu-qua.png
+---
+
+Trong Next.js, có nhiều cách gọi API tùy thuộc vào việc bạn muốn gọi server-side hay client-side. Do Next.js hỗ trợ Server-Side Rendering (SSR), Static Site Generation (SSG), và API Routes, việc chọn cách gọi API tối ưu sẽ dựa trên nhu cầu cụ thể của ứng dụng.
+
+Các cách gọi API trong Next.js tối ưu nhất
+1. Gọi API trên Server Side (getServerSideProps)
+Phù hợp khi dữ liệu cần được cập nhật real-time mỗi khi có request từ người dùng (ví dụ: trang chi tiết sản phẩm).
+
+Code mẫu:
+```jsx
+import axios from 'axios';
+
+export async function getServerSideProps() {
+  try {
+    const { data } = await axios.get('https://api.example.com/data');
+    return { props: { data } };
+  } catch (error) {
+    return { props: { error: error.message } };
+  }
+}
+
+function Page({ data, error }) {
+  if (error) return <p>Error: {error}</p>;
+
+  return (
+    <div>
+      {data.map((item) => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default Page;
+```
+
+Ưu điểm:
+Dữ liệu luôn mới nhất khi load trang.
+Xử lý API từ server, không lộ key API ra client.
+Tối ưu SEO vì dữ liệu được gửi trước khi render.
+Nhược điểm:
+Thời gian tải trang có thể chậm hơn nếu API mất thời gian xử lý.
+Tăng chi phí do mỗi request đều tạo một server-side render mới.
+2. Gọi API với Static Site Generation (SSG - getStaticProps)
+Phù hợp cho dữ liệu ít thay đổi như blog, sản phẩm cố định.
+
+Code mẫu:
+```jsx
+import axios from 'axios';
+
+export async function getStaticProps() {
+  try {
+    const { data } = await axios.get('https://api.example.com/data');
+    return {
+      props: { data },
+      revalidate: 60, // Làm mới dữ liệu mỗi 60 giây
+    };
+  } catch (error) {
+    return { props: { error: error.message } };
+  }
+}
+
+function Page({ data, error }) {
+  if (error) return <p>Error: {error}</p>;
+
+  return (
+    <div>
+      {data.map((item) => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default Page;
+```
+
+Ưu điểm:
+Tải trang nhanh vì trang được build trước.
+Hỗ trợ revalidate để làm mới dữ liệu sau một khoảng thời gian nhất định.
+Tối ưu SEO rất tốt.
+Nhược điểm:
+Không phù hợp với dữ liệu thay đổi liên tục.
+Dữ liệu chỉ được làm mới theo chu kỳ định sẵn.
+3. Gọi API trong API Route (Serverless Function)
+Next.js hỗ trợ API Routes như một serverless function, giúp tránh việc gọi API trực tiếp từ bên thứ 3.
+
+Cấu trúc thư mục:
+```bash
+/pages/api/data.js
+```
+Code cho API route:
+```js
+// /pages/api/data.js
+import axios from 'axios';
+
+export default async function handler(req, res) {
+  if (req.method !== 'GET') {
+    return res.status(405).json({ message: 'Method not allowed' });
+  }
+  try {
+    const { data } = await axios.get('https://api.example.com/data');
+    res.status(200).json(data);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+}
+```
+Code gọi API ở client:
+```jsx
+Copy code
+import { useState, useEffect } from 'react';
+
+function Page() {
+  const [data, setData] = useState([]);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch('/api/data');
+        const result = await res.json();
+        setData(result);
+      } catch (error) {
+        setError(error.message);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (error) return <p>Error: {error}</p>;
+
+  return (
+    <div>
+      {data.map((item) => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default Page;
+```
+Ưu điểm:
+Giấu được key API quan trọng vì key chỉ gọi từ server.
+Dễ dàng kiểm soát logic trả về từ server.
+Nhược điểm:
+Phải tạo thêm API Routes nên tốn thời gian setup.
+4. Gọi API Client-Side với React Hooks (useSWR hoặc React Query)
+Phù hợp khi bạn cần tải dữ liệu sau khi render hoặc muốn re-fetch dữ liệu theo chu kỳ.
+
+Dùng SWR:
+```bash
+npm install swr
+```
+Code mẫu dùng SWR:
+```jsx
+import useSWR from 'swr';
+import axios from 'axios';
+
+const fetcher = (url) => axios.get(url).then((res) => res.data);
+
+function Page() {
+  const { data, error } = useSWR('/api/data', fetcher);
+
+  if (error) return <p>Error loading data!</p>;
+  if (!data) return <p>Loading...</p>;
+
+  return (
+    <div>
+      {data.map((item) => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default Page;
+```
+Ưu điểm:
+Revalidate dữ liệu tự động sau khi có thay đổi.
+Giảm số lần gọi API do có caching tự động.
+Dữ liệu được tải không làm chặn hiển thị giao diện.
+Nhược điểm:
+Không phù hợp nếu dữ liệu cần tải trước khi hiển thị trang để SEO.
+5. ISR (Incremental Static Regeneration - Static kết hợp Dynamic)
+Phù hợp với các trang cần static nhưng vẫn muốn cập nhật dữ liệu.
+
+Code mẫu:
+```jsx
+Copy code
+export async function getStaticProps() {
+  const res = await fetch('https://api.example.com/data');
+  const data = await res.json();
+
+  return {
+    props: { data },
+    revalidate: 10, // Cập nhật lại mỗi 10 giây
+  };
+}
+
+function Page({ data }) {
+  return (
+    <div>
+      {data.map((item) => (
+        <p key={item.id}>{item.name}</p>
+      ))}
+    </div>
+  );
+}
+
+export default Page;
+```
+
+Tóm tắt lựa chọn tối ưu nhất:
+
+| Phương pháp | Khi nào dùng | Ưu điểm | Nhược điểm |
+| ----------- | ------------ | ------- | ---------- |
+| `getServerSideProps` | Dữ liệu thay đổi liên tục | Dữ liệu luôn mới nhất | Chậm nếu API lâu |
+| `getStaticProps` | 	Dữ liệu cố định hoặc ít thay đổi | Load nhanh, SEO tốt | Không phù hợp real-time |
+| `API Route` | Cần bảo mật hoặc xử lý nhiều logic backend | Ẩn key API | Setup thêm route |
+| `SWR` hoặc `React Query` | Tải dữ liệu trên client-side, cần cache | Dễ dùng, cache tốt | Không tối ưu SEO |
+| ISR | Cần cả tốc độ và cập nhật định kỳ	| Tối ưu tốc độ và SEO | Cần thêm cấu hình |
