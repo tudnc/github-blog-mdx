@@ -225,13 +225,8 @@ Tóm tắt lựa chọn tối ưu nhất:
 
 | Phương pháp | Khi nào dùng | Ưu điểm | Nhược điểm |
 | ----------- | ------------ | ------- | ---------- |
-| `getServerSideProps` | Dữ liệu thay đổi liên tục | Dữ liệu luôn mới nhất | Chậm nếu API lâu |
-| `getStaticProps` | 	Dữ liệu cố định hoặc ít thay đổi | Load nhanh, SEO tốt | Không phù hợp real-time |
-| `API Route` | Cần bảo mật hoặc xử lý nhiều logic backend | Ẩn key API | Setup thêm route |
-| `SWR` hoặc `React Query` | Tải dữ liệu trên client-side, cần cache | Dễ dùng, cache tốt | Không tối ưu SEO |
-| ISR | Cần cả tốc độ và cập nhật định kỳ	| Tối ưu tốc độ và SEO | Cần thêm cấu hình |
-
-| Header 1 | Header 2 | Header 3 |
-|----------|----------|----------|
-| Row 1    | Data 1   | Data 2   |
-| Row 2    | Data 3   | Data 4   |
+| <mark>getServerSideProps</mark> | Dữ liệu thay đổi liên tục | Dữ liệu luôn mới nhất | Chậm nếu API lâu |
+| <mark>getStaticProps</mark> | 	Dữ liệu cố định hoặc ít thay đổi | Load nhanh, SEO tốt | Không phù hợp real-time |
+| <mark>API Route</mark> | Cần bảo mật hoặc xử lý nhiều logic backend | Ẩn key API | Setup thêm route |
+| <mark>SWR</mark> hoặc <mark>React Query</mark> | Tải dữ liệu trên client-side, cần cache | Dễ dùng, cache tốt | Không tối ưu SEO |
+| <mark>ISR</mark> | Cần cả tốc độ và cập nhật định kỳ	| Tối ưu tốc độ và SEO | Cần thêm cấu hình |
